@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html, body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background: #23252C;
+    max-width: 317px;
+}
+/*/////////////////// INFO SECTION ///////////////////*/
+.info--pic{
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0 0;
+}
+.info--name{
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+}
+.info--job{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1em;
+    color: #F3BF99;
+}
+.info--website{
+    display: block;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+.info--email-btn:active, 
+.info--linkedin-btn:active,
+.info--email-btn:focus, 
+.info--linkedin-btn:focus{
+    outline: none;
+}
+.info--email-btn{
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin: 1.2em;
+    border: none;
+}
+.info--email-btn::before{
+    content: "";
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background: url('/img/email-icon.png');
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 8px;
+
+}
+.info--linkedin-btn{
+    width: 115px;
+    height: 34px;
+    background: #5093E2;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    color: white;
+    margin: 1.2em;
+    border: none;
+}
+.info--linkedin-btn::before{
+    content: "";
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background: url('/img/linkedin-icon.svg');
+    background-size: cover;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+.text{
+    text-align: left;
+    margin: 0 1em;
+    color: #F5F5F5;
+
+}
+
+.text--title{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 150%;
+}
+.text--text{
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 150%;
+    color: #DCDCDC;
+}
+.footer{
+    height: 64px;
+    border-radius: 0 0 10px 10px;
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5em 0;
+}
+
+.footer *{
+    margin: 1.2em;
+}
